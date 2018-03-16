@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <%include partials/nav.ejs%>
+  <h1>CONTACT PAGE</h1>
+  <p>Soooo, tell me about your project..</p>
+<form id="contacts" method="POST" action="/contact">
+  <label for="name">Input your name:</label><br>
+  <input type="text" name="name" value="<%=data.person %>"><br>
+  <label for="dept">Input the department name:</label><br>
+  <input type="text" name="dept" value="<%=data.dept %>"><br>
+  <label for="e-mail">Your e-mail to contact back: </label><br>
+  <input type="text" name="email" value="<%=data.email %>"><br>
+  <button type="submit">Let's see</button>
+</form>
+</body>
+</html>

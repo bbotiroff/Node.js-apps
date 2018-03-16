@@ -1,0 +1,7 @@
+
+######## Basic set up of React-native developer environment ##########
+https://facebook.github.io/react-native/docs/tutorial.html#content
+https://staminaloops.github.io/undefinedisnotafunction/install-react-native-ubuntu/
+
+####### Installation and set up react-native-maps-google npm component #######
+https://github.com/airbnb/react-native-maps
